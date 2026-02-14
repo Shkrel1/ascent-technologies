@@ -10,7 +10,7 @@ export default function Footer() {
             ASCENT TECHNOLOGIES SYSTEMS v7.4.1
           </div>
           <div className="terminal-footer__copyright">
-            &copy; {new Date().getFullYear()} ASCENT TECHNOLOGIES. ALL RIGHTS RESERVED.
+            &copy; {new Date().getFullYear()} WHITMORE FINANCIAL LLC d/b/a ASCENT TECHNOLOGIES. ALL RIGHTS RESERVED.
           </div>
           <div className="terminal-footer__status">
             DISPLAY: PHOSPHOR CRT &nbsp;// &nbsp;RESOLUTION: ADAPTIVE &nbsp;// &nbsp;SIGNAL: LOCKED
