@@ -5,8 +5,8 @@ import SoundToggle from './SoundToggle';
 
 const NAV_ITEMS = [
   { label: 'OVERVIEW', target: '#overview' },
-  { label: 'MODULES', target: '#modules' },
-  { label: 'SPECS', target: '#specs' },
+  { label: 'PRODUCTS', target: '#products' },
+  { label: 'STACK', target: '#stack' },
   { label: 'CONTACT', target: '#contact' },
 ];
 

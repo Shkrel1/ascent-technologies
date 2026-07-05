@@ -10,7 +10,7 @@ export default function HeroTerminal() {
           ════════════════════════════════════════════════════
         </div>
         <p className="hero__subtitle">
-          ADVANCED SOFTWARE SYSTEMS :: MOBILE INTELLIGENCE DIVISION
+          INDEPENDENT AI SOFTWARE STUDIO :: FOUNDED BY TOM
         </p>
 
         <div className="hero__readout">
@@ -20,24 +20,24 @@ export default function HeroTerminal() {
             <span className="data-row__value data-row__value--amber">OPERATIONAL</span>
           </div>
           <div className="data-row">
-            <span className="data-row__key">SECTOR</span>
+            <span className="data-row__key">BUILDS</span>
             <span className="data-row__dots" aria-hidden="true" />
-            <span className="data-row__value">ARTIFICIAL INTELLIGENCE</span>
+            <span className="data-row__value">AI-NATIVE MOBILE &amp; WEB APPS</span>
           </div>
           <div className="data-row">
-            <span className="data-row__key">DIVISION</span>
+            <span className="data-row__key">SHIPPED</span>
             <span className="data-row__dots" aria-hidden="true" />
-            <span className="data-row__value">MOBILE APPLICATIONS</span>
+            <span className="data-row__value data-row__value--amber">SUSAI · NICHEMAX · PAINTINGGUESSR</span>
           </div>
           <div className="data-row">
-            <span className="data-row__key">HEADQUARTERS</span>
+            <span className="data-row__key">NEXT</span>
             <span className="data-row__dots" aria-hidden="true" />
-            <span className="data-row__value">UNITED STATES</span>
+            <span className="data-row__value">RAZOR</span>
           </div>
           <div className="data-row">
-            <span className="data-row__key">CLASSIFICATION</span>
+            <span className="data-row__key">OPEN TO</span>
             <span className="data-row__dots" aria-hidden="true" />
-            <span className="data-row__value data-row__value--amber">ACTIVE</span>
+            <span className="data-row__value data-row__value--amber">WORK · INVESTMENT</span>
           </div>
         </div>
       </div>

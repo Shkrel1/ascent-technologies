@@ -17,7 +17,7 @@ const BOOT_LINES: BootLine[] = [
   { text: '[OK] SCANLINE GENERATOR ACTIVE', delay: 150, speed: 12, color: 'green' },
   { text: '[OK] NEURAL PROCESSING CORE LOADED', delay: 200, speed: 12, color: 'green' },
   { text: '[OK] PRODUCT DATABASE SYNCED', delay: 120, speed: 12, color: 'green' },
-  { text: '[OK] NICHEMAX ENGINE v2.1 :: STANDBY', delay: 180, speed: 12, color: 'amber' },
+  { text: '[OK] PRODUCT INDEX :: SUSAI · RAZOR · PAINTINGGUESSR', delay: 180, speed: 12, color: 'amber' },
   { text: '[OK] COMMUNICATION RELAY ESTABLISHED', delay: 140, speed: 12, color: 'green' },
   { text: '[OK] ALL SYSTEMS NOMINAL', delay: 200, speed: 12, color: 'bright' },
   { text: '', delay: 500, color: 'green' },

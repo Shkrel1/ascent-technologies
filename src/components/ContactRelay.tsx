@@ -13,8 +13,8 @@ export default function ContactRelay() {
             </h2>
 
             <p className="relay__text">
-              TO ESTABLISH CONTACT WITH ASCENT TECHNOLOGIES, ROUTE YOUR
-              TRANSMISSION THROUGH THE FOLLOWING SECURE CHANNEL:
+              WANT TO WORK TOGETHER, LICENSE A PRODUCT, OR INVEST? REACH TOM
+              DIRECTLY AT THE CHANNEL BELOW — ALL SERIOUS MESSAGES GET A REPLY:
             </p>
 
             <div className="relay__table">

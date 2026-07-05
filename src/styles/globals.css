@@ -702,6 +702,198 @@ h1, h2, h3, h4 {
   line-height: 2;
 }
 
+/* ── PRODUCT INDEX ──────────────────────────────────── */
+
+.product-row {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2.75rem 0;
+}
+
+.product-row + .product-row {
+  border-top: 1px solid var(--green-border);
+}
+
+.product-row__media {
+  flex: 0 0 220px;
+  min-width: 0;
+}
+
+.product-row__media .crt-frame {
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.crt-frame__emoji {
+  font-size: 5.5rem;
+  line-height: 1;
+  filter: drop-shadow(0 0 12px rgba(51, 255, 51, 0.25));
+  position: relative;
+  z-index: 1;
+}
+
+/* TV static / no-signal noise (Razor placeholder) — matches app-icon footprint */
+.crt-static {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
+  opacity: 0.55;
+  mix-blend-mode: screen;
+  animation: crt-static-flick 0.18s steps(3) infinite;
+}
+
+@keyframes crt-static-flick {
+  0% { background-position: 0 0; }
+  33% { background-position: -45px 25px; }
+  66% { background-position: 30px -35px; }
+  100% { background-position: -25px 45px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crt-static { animation: none; }
+}
+
+.product-row__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.product-row__head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.product-row__id {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  color: var(--green-dim);
+  letter-spacing: 0.15em;
+}
+
+.product-row__name {
+  font-family: var(--font-heading);
+  font-size: 1.7rem;
+  color: var(--green);
+  text-shadow: var(--glow-sm);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.product-row__class {
+  font-family: var(--font-data);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--amber);
+  opacity: 0.85;
+  margin-bottom: 1rem;
+}
+
+.product-row__desc {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--green);
+  opacity: 0.7;
+  line-height: 1.85;
+  margin-bottom: 1.4rem;
+  max-width: 620px;
+}
+
+.product-row .data-row {
+  font-size: 0.82rem;
+  line-height: 2;
+  max-width: 480px;
+}
+
+@media (max-width: 720px) {
+  .product-row {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+  .product-row__media {
+    flex-basis: auto;
+    align-self: center;
+  }
+  .product-row__name {
+    font-size: 1.4rem;
+  }
+}
+
+.product-badge {
+  font-family: var(--font-data);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  padding: 0.2em 0.6em;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.product-badge--live {
+  color: var(--green);
+  text-shadow: var(--glow-sm);
+}
+
+.product-badge--soon {
+  color: var(--amber);
+  text-shadow: var(--glow-amber-md);
+}
+
+.product-link {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: var(--amber);
+  text-shadow: var(--glow-amber-sm);
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  border: 1px solid var(--amber);
+  border-radius: 2px;
+  background: rgba(180, 77, 255, 0.08);
+  box-shadow: inset 0 0 12px rgba(180, 77, 255, 0.08);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+
+.product-link:hover {
+  background: rgba(180, 77, 255, 0.18);
+  box-shadow: var(--glow-amber-md), inset 0 0 14px rgba(180, 77, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.product-link:active {
+  transform: translateY(0);
+}
+
+.product-row .product-link {
+  margin-top: 1.5rem;
+}
+
+.product-link--muted {
+  color: var(--green-dim);
+  text-shadow: none;
+  border-color: var(--green-border);
+  background: rgba(51, 255, 51, 0.03);
+  box-shadow: none;
+  opacity: 0.7;
+  cursor: default;
+}
+
+.product-link--muted:hover {
+  background: rgba(51, 255, 51, 0.03);
+  box-shadow: none;
+  transform: none;
+}
+
 /* CRT Frame — nested monitor for app icon */
 .crt-frame {
   background: #141414;

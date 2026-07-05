@@ -13,24 +13,24 @@ export default function SystemOverview() {
             </h2>
 
             <p className="overview__text">
-              ASCENT TECHNOLOGIES IS A SOFTWARE DEVELOPMENT ENTITY SPECIALIZING
-              IN INTELLIGENT MOBILE APPLICATIONS. OUR SYSTEMS LEVERAGE NEURAL
-              PROCESSING ARCHITECTURES TO ANALYZE, CLASSIFY, AND GENERATE
-              ACTIONABLE INSIGHTS FROM COMPLEX DATA INPUTS.
+              ASCENT TECHNOLOGIES IS AN INDEPENDENT AI SOFTWARE STUDIO. IT
+              DESIGNS, BUILDS, AND SHIPS ITS OWN AI-NATIVE APPS FOR MOBILE AND
+              WEB — REAL PRODUCTS FOR REAL USERS, NOT DEMOS.
             </p>
 
             <p className="overview__text">
-              <strong>PRIMARY DIRECTIVE:</strong> DEVELOP APPLICATIONS THAT AUGMENT
-              HUMAN DECISION-MAKING THROUGH ADVANCED PATTERN RECOGNITION AND
-              AI-DRIVEN CLASSIFICATION ALGORITHMS.
+              <strong>FOUNDED AND RUN BY TOM</strong> — A FULL-STACK DEVELOPER
+              WHO HANDLES EVERYTHING FROM DESIGN AND ENGINEERING TO AI AND
+              RELEASE. THE STUDIO SHIPS FAST AND KEEPS PRODUCTS DELIBERATELY
+              FOCUSED. OPEN TO COLLABORATIONS AND INVESTMENT.
             </p>
 
             <hr className="terminal-divider" />
 
             <div className="data-row">
-              <span className="data-row__key">OPERATIONAL STATUS</span>
+              <span className="data-row__key">FOUNDER</span>
               <span className="data-row__dots" aria-hidden="true" />
-              <span className="data-row__value data-row__value--amber">ACTIVE</span>
+              <span className="data-row__value data-row__value--amber">TOM</span>
             </div>
             <div className="data-row">
               <span className="data-row__key">FOUNDED</span>
@@ -38,30 +38,30 @@ export default function SystemOverview() {
               <span className="data-row__value">2024</span>
             </div>
             <div className="data-row">
-              <span className="data-row__key">SECTOR</span>
+              <span className="data-row__key">FOCUS</span>
               <span className="data-row__dots" aria-hidden="true" />
-              <span className="data-row__value">MOBILE AI</span>
+              <span className="data-row__value">AI-NATIVE MOBILE &amp; WEB APPS</span>
             </div>
             <div className="data-row">
-              <span className="data-row__key">PRIMARY PRODUCT</span>
+              <span className="data-row__key">SHIPPED</span>
               <span className="data-row__dots" aria-hidden="true" />
-              <span className="data-row__value data-row__value--amber">NICHEMAX</span>
+              <span className="data-row__value data-row__value--amber">SUSAI · NICHEMAX · PAINTINGGUESSR</span>
             </div>
             <div className="data-row">
-              <span className="data-row__key">PLATFORM</span>
+              <span className="data-row__key">IN DEVELOPMENT</span>
               <span className="data-row__dots" aria-hidden="true" />
-              <span className="data-row__value">iOS</span>
+              <span className="data-row__value">RAZOR</span>
             </div>
 
             <hr className="terminal-divider" />
 
-            <p className="section__tag" style={{ marginTop: '1rem' }}>CORE CAPABILITIES</p>
+            <p className="section__tag" style={{ marginTop: '1rem' }}>WHAT ASCENT DOES</p>
             <ul className="overview__capabilities">
-              <li>NEURAL NETWORK INTEGRATION</li>
-              <li>COMPUTER VISION PROCESSING</li>
-              <li>REAL-TIME STYLE ANALYSIS</li>
-              <li>PERSONALIZED RECOMMENDATION ENGINES</li>
-              <li>iOS NATIVE APPLICATION DEVELOPMENT</li>
+              <li>NATIVE iOS APPS (REACT NATIVE · EXPO)</li>
+              <li>WEB APPS (NEXT.JS · REACT)</li>
+              <li>LLM &amp; REAL-TIME VOICE AI INTEGRATION</li>
+              <li>COMPUTER VISION &amp; BEHAVIORAL ANALYSIS</li>
+              <li>END-TO-END PRODUCT DELIVERY &amp; SEO</li>
             </ul>
           </div>
         </div>

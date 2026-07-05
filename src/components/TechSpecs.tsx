@@ -1,152 +1,108 @@
 export default function TechSpecs() {
   return (
-    <section id="specs" className="section section-reveal">
+    <section id="stack" className="section section-reveal">
       <div className="container">
         <div className="terminal-panel">
           <div className="terminal-panel__header">
-            [ SYSTEM :: TECHNICAL_SPECIFICATIONS ]
+            [ SYSTEM :: CAPABILITIES ]
           </div>
           <div className="terminal-panel__body">
-            <p className="section__tag">[SYS.03] DATA SHEET</p>
-            <h2 className="section__title" data-scramble data-text="TECHNICAL SPECIFICATIONS">
-              TECHNICAL SPECIFICATIONS
+            <p className="section__tag">[SYS.03] HOW THINGS GET BUILT</p>
+            <h2 className="section__title" data-scramble data-text="CAPABILITIES">
+              CAPABILITIES
             </h2>
 
+            <p className="overview__text">
+              ASCENT IS A ONE-PERSON STUDIO THAT TAKES PRODUCTS FROM IDEA TO THE
+              APP STORE — DESIGN, FRONTEND, BACKEND, AI, AND SHIPPING. THE STACK
+              BELOW IS WHAT ACTUALLY POWERS THE PRODUCTS.
+            </p>
+
             <div className="specs__block">
-              <div className="specs__block-title">CORE ENGINE</div>
+              <div className="specs__block-title">MOBILE</div>
               <div className="specs__block-divider" aria-hidden="true">
                 ═══════════════════════════════════════════════════
               </div>
               <div className="data-row">
-                <span className="data-row__key">ENGINE TYPE</span>
+                <span className="data-row__key">FRAMEWORK</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">NEURAL NETWORK</span>
+                <span className="data-row__value">REACT NATIVE · EXPO</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">ARCHITECTURE</span>
+                <span className="data-row__key">TARGET</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">MULTI-LAYER CNN</span>
+                <span className="data-row__value">NATIVE iOS</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">INPUT FORMAT</span>
+                <span className="data-row__key">MONETIZATION</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">JPEG / PNG / HEIC</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">MAX INPUT SIZE</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">4096 x 4096 PX</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">PROCESSING TIME</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value data-row__value--amber">&lt;3 SECONDS</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">ACCURACY RATING</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value data-row__value--amber">94.7%</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">CONFIDENCE THRESHOLD</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">0.85</span>
+                <span className="data-row__value">IN-APP SUBSCRIPTIONS</span>
               </div>
             </div>
 
             <div className="specs__block">
-              <div className="specs__block-title">CLASSIFICATION DATABASE</div>
+              <div className="specs__block-title">WEB</div>
               <div className="specs__block-divider" aria-hidden="true">
                 ═══════════════════════════════════════════════════
               </div>
               <div className="data-row">
-                <span className="data-row__key">TOTAL ENTRIES</span>
+                <span className="data-row__key">FRAMEWORK</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value data-row__value--amber">14,847</span>
+                <span className="data-row__value">NEXT.JS · REACT</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">STYLE CATEGORIES</span>
+                <span className="data-row__key">DEPLOY</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">200+</span>
+                <span className="data-row__value">EDGE / SERVERLESS</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">TREND COVERAGE</span>
+                <span className="data-row__key">SEO</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">GLOBAL</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">UPDATE FREQUENCY</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">CONTINUOUS LEARNING</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">LAST SYNC</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">[CURRENT]</span>
+                <span className="data-row__value data-row__value--amber">STRUCTURED &amp; INDEXED</span>
               </div>
             </div>
 
             <div className="specs__block">
-              <div className="specs__block-title">PLATFORM REQUIREMENTS</div>
+              <div className="specs__block-title">AI / INTELLIGENCE</div>
               <div className="specs__block-divider" aria-hidden="true">
                 ═══════════════════════════════════════════════════
               </div>
               <div className="data-row">
-                <span className="data-row__key">TARGET OS</span>
+                <span className="data-row__key">LANGUAGE MODELS</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">iOS 16.0+</span>
+                <span className="data-row__value">LLM INTEGRATION</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">DEVICE</span>
+                <span className="data-row__key">VOICE</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">iPHONE</span>
+                <span className="data-row__value">REAL-TIME VOICE AI</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">APP SIZE</span>
+                <span className="data-row__key">VISION</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">&lt;50 MB</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">NETWORK</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">REQUIRED FOR ANALYSIS</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">OFFLINE FEATURES</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">PROFILE VIEWING</span>
+                <span className="data-row__value">ON-DEVICE &amp; CLOUD ANALYSIS</span>
               </div>
             </div>
 
             <div className="specs__block">
-              <div className="specs__block-title">DATA HANDLING</div>
+              <div className="specs__block-title">BACKEND</div>
               <div className="specs__block-divider" aria-hidden="true">
                 ═══════════════════════════════════════════════════
               </div>
               <div className="data-row">
-                <span className="data-row__key">PHOTO STORAGE</span>
+                <span className="data-row__key">DATA</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">NONE (IN-MEMORY ONLY)</span>
+                <span className="data-row__value">POSTGRES · REALTIME DB</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">USER DATA</span>
+                <span className="data-row__key">AUTH &amp; STORAGE</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">ENCRYPTED (AES-256)</span>
+                <span className="data-row__value">MANAGED / SERVERLESS</span>
               </div>
               <div className="data-row">
-                <span className="data-row__key">PRIVACY RATING</span>
+                <span className="data-row__key">PRIVACY</span>
                 <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value data-row__value--amber">MAXIMUM</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">THIRD-PARTY SHARING</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">NONE</span>
-              </div>
-              <div className="data-row">
-                <span className="data-row__key">GDPR COMPLIANT</span>
-                <span className="data-row__dots" aria-hidden="true" />
-                <span className="data-row__value">YES</span>
+                <span className="data-row__value data-row__value--amber">DATA-MINIMAL BY DESIGN</span>
               </div>
             </div>
           </div>
